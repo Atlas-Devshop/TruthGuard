@@ -17,7 +17,6 @@
     <navType>Standard</navType>
     <tabs>standard-Account</tabs>
     <tabs>standard-GiftTransaction</tabs>
-    <tabs>standard-GiftCommitment</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>standard-InterestTag</tabs>
     <uiType>Lightning</uiType>
