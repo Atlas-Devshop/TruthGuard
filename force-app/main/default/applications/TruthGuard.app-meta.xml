@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#244F74</headerColor>
+        <logo>TruthGuardLogo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>TruthGuard workspace for managing donors, giving history, and product engagement. Access Person Accounts, Gift Transactions, Gift Commitments, Products and Interest Tags from one place.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>TruthGuard</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-GiftTransaction</tabs>
+    <tabs>standard-GiftCommitment</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-InterestTag</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>TruthGuard_UtilityBar</utilityBar>
+</CustomApplication>

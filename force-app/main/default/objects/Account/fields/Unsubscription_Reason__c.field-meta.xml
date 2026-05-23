@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unsubscription_Reason__c</fullName>
+    <label>Unsubscription Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>INAPPROPRIATE</fullName>
+                <default>false</default>
+                <label>INAPPROPRIATE</label>
+            </value>
+            <value>
+                <fullName>SPAM</fullName>
+                <default>false</default>
+                <label>SPAM</label>
+            </value>
+            <value>
+                <fullName>NORMAL</fullName>
+                <default>false</default>
+                <label>NORMAL</label>
+            </value>
+            <value>
+                <fullName>NOSIGNUP</fullName>
+                <default>false</default>
+                <label>NOSIGNUP</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
